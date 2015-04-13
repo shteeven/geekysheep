@@ -51,6 +51,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/about',
       templateUrl: 'views/about.html',
       controller: 'AboutCtrl'
+    })
+    .state('gallery', {
+      url: '/gallery',
+      templateUrl: 'views/gallery/gallery.html',
+      controller: 'GalleryCtrl'
     });
 });
 

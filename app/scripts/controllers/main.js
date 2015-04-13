@@ -9,7 +9,7 @@
  */
 angular.module('sheepApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.myInterval = 5000;
+    $scope.myInterval = 10000;
     var slides = $scope.slides = [];
     $scope.addSlide = function() {
       var newWidth = 600 + slides.length + 1;
@@ -19,7 +19,7 @@ angular.module('sheepApp')
         ['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
       });
     };
-    for (var i=0; i<4; i++) {
+    for (var i=0; i<30; i++) {
       $scope.addSlide();
     }
   });
