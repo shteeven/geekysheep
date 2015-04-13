@@ -1,0 +1,49 @@
+
+[
+  {
+    "id": 0,
+    "first_name": "John",
+    "last_name": "Abruzzi",
+    "middle_name": "Kewan",
+    "DOB": "12/03/1935",
+    "ssn": "254-2342-42",
+    "sex" : "Male",
+    "country" : "USA",
+    "city" : "Greater New York",
+    "phone" : "1234124822",
+    "military_branch" : "Army",
+    "zip" : "08675",
+    "guid" : ""
+  },
+  {
+    "id": 1,
+    "first_name": "Peter",
+    "last_name": "Burk",
+    "middle_name": "S",
+    "DOB": "31/06/1945",
+    "ssn": "342-9876-54",
+    "sex" : "Male",
+    "country" : "USA",
+    "city" : "New York",
+    "phone" : "3346573924",
+    "military_branch" : "FBI",
+    "zip" : "25643",
+    "guid" : ""
+  },
+
+  {
+    "id": 2,
+    "first_name": "Neal",
+    "last_name": "caffery",
+    "middle_name": "Sam",
+    "DOB": "28/02/1988",
+    "ssn": "420-4204-20",
+    "sex" : "Male",
+    "country" : "USA",
+    "city" : "New York",
+    "phone" : "676554323",
+    "military_branch" : "Air Force",
+    "zip" : "26531",
+    "guid" : ""
+  }
+]

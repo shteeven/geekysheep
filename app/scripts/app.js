@@ -15,8 +15,7 @@ var app = angular.module('sheepApp', [
   'ngRoute',
   'ngSanitize',
   'ngTouch',
-  'ui.router',
-  'ui.bootstrap'
+  'ui.router'
 ]);
 
 
@@ -62,3 +61,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
 app.controller('AppCtrl', ['$scope', function($scope){
 }]);
 
+app.factory('userService', function($http){
+  return $http.get('hello.json');
+});
